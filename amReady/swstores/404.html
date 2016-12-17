@@ -1,0 +1,429 @@
+
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Poses-404 Website Template | Home :: W3layouts</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="bootstrap.css">
+<style>
+.error-template {padding: 40px 15px;text-align: center;}
+.error-actions {margin-top:15px;margin-bottom:15px;}
+.error-actions .btn { margin-right:10px; }
+/* Center the loader */
+input[type="number"]{
+	width:30px;
+}
+.sub{
+	width:30%;
+	line-height:2;
+	-webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+
+}
+.pro{
+	height:200px;
+} 
+.navbar-header{
+	background:#fff;
+	color:white;
+}
+body{
+	background:#eee;
+	background-position:fixed;
+	color:#888;
+}
+.well{
+	background:#444;
+	color:white;
+	margin-top:15px;
+}
+.container{
+	background:eee;
+}
+.container-fluid{
+	margin-left:-10px;
+	margin-right:0px;
+	margin-bottom:-10px;
+}
+.sub:hover{
+	width:50%;
+	line-height:2;
+	background-color:#888;
+	color:#fff;
+	border-radius:5px;
+}
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  margin: -75px 0 0 -75px;
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #3498db;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+#myDiv {
+  display: none;
+}
+.collapse a{
+	background:#055505;
+	color:#fff;
+}
+.collapse a:hover{
+	background:#550505 !important;
+	color:#fff;
+}
+.collapse ul a{
+	background:#055505;
+	color:#fff;
+}
+.collapse ul a:hover{
+	background:#055505;
+	color:#fff;
+}
+.collapse ul li ul a{
+	background:#055505 !important;
+	color:#fff;
+}
+.dropdown-submenu a:hover{
+	background:#055505 !important;
+	color:#fff;
+}
+.collapse{
+	background:#055505;
+	color:#fff;
+}
+.rec{
+	background:#fff;
+	outline:1px solid #ddd;
+			box-shadow:1px 1px 10px #ccc,-1px -1px 10px #ccc;
+}
+.offr{
+	background:#fff;
+		outline:1px solid #ddd;
+				box-shadow:1px 1px 10px #ccc,-1px -1px 10px #ccc;
+}
+.feat{
+	background:#fff;
+		outline:1px solid #ddd;
+			box-shadow:1px 1px 10px #ccc,-1px -1px 10px #ccc;
+}
+.roimg:hover{
+	box-shadow:5px 5px 2px #ddd,-5px 0px 2px #ddd;
+}
+h2{
+		text-shadow:5px 5px 5px #666,-5px 0px 5px #666;
+}
+.img{
+	height:200px !important;
+	width:160px !important;
+	transition:width 2s;
+}
+/*
+.img:hover{
+	height:200px !important;
+	width:240px !important;
+	*/
+}
+a{
+	color:white;
+}
+.slideimg{
+	height:400px !important;
+	width:1920px !important;
+}
+.more{
+	width:70px;
+	padding:15px;
+	float:right;
+}
+.but{
+	-webkit-animation:moree 2s linear infinite 2s;
+	animation:moree 2s linear infinite 2s;
+}
+@-webkit-keyframes moree{
+	form{
+		background:#430000;
+	}
+	to{
+		background:#004300;
+	}
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+	margin:10px;
+	padding:10px;
+    margin-top: -1px;
+		background:#055505 !important;
+	color:#fff;
+}
+.btnn{
+	padding:10px;
+	margin:3px;
+	margin-left:auto;
+	margin-right:auto;
+	border:0px;
+	width:97%;
+	margin-top:5px;
+	background:#555;
+	color:white;
+}
+.thumbnail{
+	outline:0px !important;
+	border:0px !important;
+	
+}
+.table{
+padding:15px;
+margin:5px;
+//width:73%;	
+//outline:1px solid #eee;
+box-sizing:border-box;
+background-color:#fff;
+display:block;
+//z-index:1000;
+box-shadow:5px 5px 10px #aaa,-5px -5px 10px #aaa;
+-webkit-animation:animate 5s;
+color:#888;
+transition:2s;
+position:relative;
+-webkit-transition:2s;
+height:80%;
+margin-top:5%;
+
+}
+.li{
+	display:inline;
+	-webkit-list-style:none;
+}
+tr{
+//border:1px solid #444;
+}
+td{
+	margin:25px;
+}
+*{
+	text-decoration:none;
+	//-webkit-user-select:none;
+}
+body{
+	background:#eee;
+	background-attachment:fixed;
+	color:#888;
+}
+@-webkit-keyframes nimate{
+	0%{
+		left:-550px;
+		background:-webkit-linear-gradient(top,#300,#500 70%);
+	}
+	100%{
+		left:100px;
+		background:-webkit-linear-gradient(top,#303,#055 70%);
+	}
+}
+.td{
+	background:#333;
+	line-height:2;
+	color:white;
+	margin:15px;
+	padding:15px;
+}
+.im:hover{
+		box-shadow:5px 5px 2px #333,-5px 0px 2px #333;
+}
+a{
+	color:#888;
+}
+.t:hover{
+	box-shadow:10px 10px 5px #030,-10px -10px 5px #030;
+	z-index:5;
+}
+.relprod{
+	width:90%;
+	outline:1px solid #ddd;
+	height:50%;
+	-webkit-animation:animaterel 2s ease-in;
+	animation:animaterel 5s;
+	position:relative;
+	-webkit-transition:2s;
+	margin-right:auto;
+	margin-left:auto;
+	color:#888;
+	display:-webkit-flex;
+	margin-top:5%;
+	background:#fff;
+	box-shadow:1px 1px 10px #ccc,-1px -1px 10px #ccc;
+	
+}
+.prod{
+	display:inline-block;
+	margin:25px;
+//border:1px solid #eee;
+}
+@-webkit-keyframes nimaterel{
+	0%{
+		width:0px;
+		right:0px;
+		background:-webkit-linear-gradient(top,#030,#540 70%);
+	}
+	100%{
+		right:100px;
+		background:-webkit-linear-gradient(bottom,#343,#055 70%);
+	}
+}
+.tab{
+border:1px dotted #888;	
+}
+input[type="number"]{
+	width:30px;
+}
+/*
+input[type="submit"],button{
+	padding:15px;
+	line-height:2;
+	width:14em;
+	color:#fff;
+	background:#550000;
+	border:0px;
+}*/
+.a{
+	padding:15px;
+	line-height:2;
+	width:14em;
+	color:#888;
+	background:#550000;
+	border:0px;
+}
+li{
+	list-style:none;
+}
+body{
+//overflow-x:hidden !important;
+}
+
+#chatme{
+	-webkit-transform:rotate(30deg);
+	transform:rotate(30deg);
+	margin-top:20%;
+	margin-left:40px;
+	background:#475;
+	color:#fff;
+	padding:10px;
+	line-height:1.3;
+	border-radius:5px;
+}
+#chatme:hover{
+	background:#548;
+	cursor:pointer;
+}
+@media only screen and (max-width:1000px){
+	#chatbox{
+		content:"connected";
+		width:70% !important;
+		margin-left:1% !important;
+		position:fixed !important;
+		top:15% !important;
+		left:30% !important;
+		}
+		.table{
+		//	width:97% !important;
+		}
+		#proShow{
+			width:30% important;
+		}
+}
+.h3ct{
+	background-color:#444;color:#fff;position:fixed;width:29%;height:10%;margin-top:-8px;
+}
+#chatbox{
+	background-color:#ccc;color:#888;width:30%;height:85%;text-overflow:ellipsis;word-wrap:break-word;position:fixed;left:70%;top:20%;
+	border:2px solid #888;padding:10px;display:none;z-index:1999;margin-bottom:0px;
+}
+#refresh{
+	background-color:#fff;color:#333;margin-top:18%;line-height:1.2;padding:3px;height:78%;overflow-y:scroll;
+}
+.sock{
+	background:#050858;color:white;width:28%;position:fixed;border:none;padding:3px;
+}
+#msg{
+	background:#040454;color:white;width:250px;
+}
+#sendd{
+	border:0px;width:100px;background-color:#555555;color:#fff;
+}
+-->
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="error-template">
+                <h1>
+                    Oops!</h1>
+                <h2>
+                    404 Not Found</h2>
+                <div class="error-details">
+                    Sorry, an error has occured, Requested page not found!
+                </div>
+                <div class="error-actions">
+                    <a href="test.php" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
+                        Take Me Home </a><a href="help.php" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-envelope"></span> Contact Support </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
